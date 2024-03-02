@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    width: 100vw;
+    height: 200px;
+}
+
+.box{
+    height: 30vh;
+    width: 33%;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #C9ADA7;
+    color: #4A4E69;
+}
+
+main{
+    width: 100vw;
+    padding: 20px;
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #C9ADA7;
+    width: 100vw;
+}
+
+
+#ClickMe{
+    border-radius: 20px;
+    width: 30%;
+    height: 50px;
+    color: #22223B;
+    border: none;
+}
+
+li{
+    margin-bottom: 5px;
+}
+main{
+    width: 100;
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+    background-color: #F7F3F2;
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 100px;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+}
