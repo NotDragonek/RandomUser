@@ -11,12 +11,13 @@ const btn = document.getElementById('ClickMe');
         newDiv.innerHTML = `
         Name: ${name.first} and Surname: ${name.last} <br>
         Street: ${data.results[0].location.street.name} and House number: ${data.results[0].location.street.number} <br>
-        Phone number: ${data.results[0].phone} and Email: ${data.results[0].email}<br>
+        Email: ${data.results[0].email}<br>
         Img:<br>
-        <img src="${data.results[0].picture.medium}>"
+        <img src="${data.results[0].picture.large}" alt="zdjecie osobowe"></img>
         `
         document.querySelector('main').appendChild(newDiv)
-    
+        
+        console.log(data.results[0].picture.medium)
     }
 
 btn.addEventListener('click',() =>{

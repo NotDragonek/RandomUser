@@ -56,12 +56,19 @@ main{
 div{
     background-color: #F7F3F2;
     display: flex;
-    flex-wrap: wrap;
-    width: 25%;
-    height: 100px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    height: 240px;
+    padding-top: 20px;
 }
 
 p{
     display: flex;
     flex-direction: column;
+}
+
+img{
+    border-radius: 20px;
 }
